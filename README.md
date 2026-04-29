@@ -19,9 +19,9 @@ BudgetIQ is a smart web-based application designed to analyze user spending patt
 
 The core idea of this project is to:
 
-* Analyze how users spend money
+* Analyze user spending patterns
 * Identify trends (e.g., frequent categories, high spending areas)
-* Provide insights that help improve financial decisions
+* Provide insights to improve financial decisions
 
 ---
 
@@ -33,28 +33,26 @@ The core idea of this project is to:
 * CSS
 * JavaScript
 
-## ⚙️ Backend
+### ⚙️ Backend
 
 * Supabase (Backend-as-a-Service)
-* Handles database operations and API requests
-* Built on PostgreSQL
-  
-## 🗄️ Database
+* Handles API requests and data operations
 
-* Supabase (PostgreSQL-based backend)
-* Stores user transactions (income & expenses)
-* SQL queries used for data retrieval and analysis
+### 🗄️ Database
 
+* PostgreSQL (via Supabase)
+* Stores transaction data (income, expenses, categories)
+* SQL used for querying and analysis
 
 ---
 
 ## ⚙️ How It Works
 
-1. User enters financial data (income/expenses)
-2. Data is stored in database (Supabase)
-3. System processes data using SQL queries
-4. User enters User_id
-5. Insights are displayed on dashboard 
+1. User enters income and expense data
+2. Data is stored in Supabase (PostgreSQL database)
+3. System retrieves and processes data using SQL queries
+4. Insights are generated based on user transactions
+5. Results are displayed on the insights dashboard
 
 ---
 
@@ -69,14 +67,14 @@ The core idea of this project is to:
 
 * 🔐 User authentication
 * ☁️ Cloud data sync
-* 📊 Advanced analytics using ML
+* 📊 Advanced analytics using Machine Learning
 * 📱 Mobile app version
 
 ---
 
 ## 📌 Why This Project?
 
-This project was built to solve real-life problems related to:
+This project was built to address real-world financial challenges such as:
 
 * Poor budgeting habits
 * Lack of financial awareness
