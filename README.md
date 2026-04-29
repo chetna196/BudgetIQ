@@ -33,10 +33,18 @@ The core idea of this project is to:
 * CSS
 * JavaScript
 
-### 🗄️ Backend / Database
+## ⚙️ Backend
+
+* Supabase (Backend-as-a-Service)
+* Handles database operations and API requests
+* Built on PostgreSQL
+  
+## 🗄️ Database
 
 * Supabase (PostgreSQL-based backend)
-* SQL (for queries and data handling)
+* Stores user transactions (income & expenses)
+* SQL queries used for data retrieval and analysis
+
 
 ---
 
