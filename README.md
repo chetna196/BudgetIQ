@@ -6,7 +6,7 @@ BudgetIQ is a smart web-based application designed to analyze user spending patt
 
 ## 🚀 Features
 
-* 📊 Track income and expenses
+* 📊 Track income and daily expenses
 * 🧠 Financial Behaviour Analysis
 * 📈 Insights dashboard for spending patterns
 * 💡 Categorization of expenses
